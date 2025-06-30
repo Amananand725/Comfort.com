@@ -8,6 +8,7 @@ body{
 /* firstbox */
 .navbar{
     height:65px;
+    width: 97rem;
     position: relative;
     bottom:5px;
     padding-top:8px;
@@ -147,6 +148,7 @@ span{
 /* panalbox */
 .panalbox{
     height: 40px;
+    width: 97rem;
     background-color:#222f3d;
     position: relative;
     bottom:5px;
@@ -235,6 +237,7 @@ span{
 /* herobox */
 .herobox{
     height: 600px;
+    width: 97rem;
     background-color: antiquewhite;
     background-image: url("images/hero.jpg");
     background-size: cover;
@@ -267,7 +270,8 @@ span{
 }
 /* shopbox */
 .shopbox{
-    width:1450px ;
+    /* width:1450px ; */
+    width: 91rem;
     height:430px;
     position: relative;
     top:300px;
@@ -278,6 +282,7 @@ span{
 }
 .box{
     height:390px;
+    width: 24rem;
     margin-bottom: 15px;
     width:23%;
     display: flex;
@@ -728,8 +733,8 @@ span{
 }
 .shop:hover{
 
-    height:390px;
-    width:370px;
+    height:400px;
+    width:330px;
     position: relative;
     bottom: 15px;
     margin-top:10px ;
@@ -738,10 +743,74 @@ span{
 }
 .shop2{
     height: 500px;
+    width: 97rem;
     background-color: #aea7a7 ;
     background-size: cover;
     position: relative;
     top:5px;   
+}
+.pants{
+    height: 250px;
+    width: 97rem;
+    display:flex;
+    background-color: #a1a0a0 ;
+    background-size: cover;
+    position:relative;
+    top:295px; 
+  
+}
+
+.pant1{
+    height: 250px;
+    width: 14rem;
+    background-color: aqua;
+    background-image: url("images/pant1.webp");
+    background-size: cover;
+}
+.pant2{
+    height: 250px;
+    width: 15rem;
+    background-color: rgb(68, 83, 43);
+    background-image: url("images/pant2.webp");
+    background-size: cover;
+}
+.pant3{
+    height: 250px;
+    width: 15rem;
+    background-color: rgb(154, 51, 202);
+    background-image: url("images/pant3.webp");
+    background-size: cover;
+}
+.pant4{
+    height: 250px;
+    width: 15rem;
+    background-color: rgb(255, 128, 0);
+    background-image: url("images/pant4.webp");
+    background-size: cover;
+}
+.pant5{
+    height: 250px;
+    width: 15rem;
+    background-color: rgb(154, 179, 32);
+    background-image: url("images/pant5.webp");
+    background-size: cover;
+}
+.pant6{
+    height: 250px;
+    width: 15rem;
+    background-color: rgb(139, 16, 53);
+    background-image: url("images/pant6.webp");
+    background-size: cover;
+}
+.pant7{
+    height: 250px;
+    width: 15rem;
+    background-color: aqua;
+    background-image: url("images/pant7.webp");
+    background-size: cover;
+} 
+.border4:hover{
+    border:2px solid #304154; 
 }
 .footpanal1{
     height: 50px;
@@ -752,6 +821,7 @@ span{
     align-items: center;
     position: relative;
     bottom: 3px;
+    top: 75px;
 }
 .footpanal1 a{
     color: #ffffff;
@@ -761,12 +831,14 @@ span{
     height: 350px;
     position: relative;
     bottom:3px;
+    top: 75px;
     padding-top: 20px;
     background-color: #222f3d;
     color:white;
     display: flex;
     justify-content: space-evenly;
 }
+
 .footbox1 a {
     display: block;
     margin: 8px;
@@ -808,6 +880,7 @@ span{
     height: 100px;
     position: relative;
     bottom: 2.41px;
+    top: 75.2px;
     background-color:#222f3d;
     display: flex; 
     justify-content:center;
@@ -859,6 +932,7 @@ span{
     color:white;
     position:relative;
     bottom:2px;
+    top: 75.5px;
     color:#dddddd;
     font-size: 0.8rem;
     text-align: center;
@@ -875,3 +949,4 @@ span{
     justify-content:space-evenly;
     align-items: center;
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
