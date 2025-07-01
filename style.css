@@ -234,6 +234,11 @@ span{
     justify-content: center;
     font-weight: 700;
 }
+.electronicvishal{
+    text-decoration: none;
+    color:#ffffff;
+     font-weight: 900;
+}
 /* herobox */
 .herobox{
     height: 600px;
@@ -833,7 +838,7 @@ span{
     bottom:3px;
     top: 75px;
     padding-top: 20px;
-    background-color: #222f3d;
+    background-color:#222f3d;
     color:white;
     display: flex;
     justify-content: space-evenly;
